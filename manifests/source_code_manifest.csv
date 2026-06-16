@@ -6,4 +6,3 @@ public_reproducibility_package/code/config/reservoir_happo_public_template.py,re
 agent/reservoir_multi_agents/config/paperfour_stage_c_scenarios.json,defines Stage C mixed-sequence validation scenario,recommended with restricted input note
 agent/reservoir_multi_agents/analysis/experiment_analysis_paperFour/build_response_dataset.py,builds Stage B response dataset and representative checkpoint table,recommended
 agent/reservoir_multi_agents/analysis/experiment_analysis_paperFour/build_stage_c_scorecard.py,builds Stage C validation scorecard,recommended
-agent/reservoir_multi_agents/markdown/<manuscript_folder>/PaperFour/figures/scripts,prepares figure data and renders manuscript figures,recommended

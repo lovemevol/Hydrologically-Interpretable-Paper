@@ -27,14 +27,6 @@ and manuscript figures were generated.
 - `build_results_evidence_pack.py`: builds manuscript evidence tables and
   claim-to-source mappings.
 
-`figures/scripts/`
-
-- `prepare_paperfour_figure_data.py`: prepares figure-source CSV files.
-- `run_all_figures.py` and `plot_fig*.py`: render manuscript figures.
-- `_paperfour_plot_style.py` and `_paperfour_plot_paths.py`: shared figure
-  style and path helpers.
-- `paperfour_figure_lib.py`: shared plotting functions.
-
 ## Execution Boundary
 
 The code is sufficient to audit the experimental design and data-processing

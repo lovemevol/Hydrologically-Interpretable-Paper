@@ -16,7 +16,7 @@ Included materials document:
 - representative-role names used in the manuscript;
 - the seed and checkpoint-selection protocol;
 - a minimal response-dataset schema and export-release manifest;
-- source-code files that should be included when the repository is made public.
+- source-code files for the configuration and analysis workflow that should be included when the repository is made public.
 
 This package does not include raw reservoir workbooks, raw inflow workbooks,
 trained checkpoints, raw evaluator workbooks, or large run logs. Those files may
@@ -64,8 +64,6 @@ confidentiality constraints allow.
   template.
 - `analysis/`: public copies of the response-dataset, evidence-pack, and Stage C
   scorecard builders.
-- `figures/scripts/`: public copies of the figure data-preparation and plotting
-  scripts.
 
 `statements/`
 
