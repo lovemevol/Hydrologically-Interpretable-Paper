@@ -1,6 +1,6 @@
 # PaperFour Minimal Public Reproducibility Package
 
-This folder contains the minimum public materials planned for the PaperFour
+This folder contains the minimum public materials for the PaperFour
 submission. The package is intended to support configuration-level review and
 auditability for a manuscript on hydrologically interpretable
 learning-dynamics sensitivity in a fixed five-reservoir HAPPO setting.
