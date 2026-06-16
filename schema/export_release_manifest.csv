@@ -1,0 +1,8 @@
+export_source,public_content,public_release,notes
+generated training config,"stage, config_id, fixed settings, changed learning-dynamics parameters",included,Sufficient to reconstruct the experiment matrix.
+public fixed-setting template,"redacted fixed HAPPO configuration boundary",included,Documents key settings without exposing restricted workbooks or database settings.
+manifest.json,"run metadata, seed, generated config path, input file names, git metadata",optional_redacted,May include local paths; redact before public upload if copied from run directories.
+learner logs,aggregated learner diagnostics,optional_derived_tables,Raw logs are not required for the minimal configuration package.
+evaluator operation workbooks,daily reservoir operation exports,not_in_minimal_package,May depend on restricted inflow or reservoir files.
+trained checkpoints,ckpt_best.pth.tar,not_in_minimal_package,Large files; release only if data license and repository size policy allow.
+figure data,aggregated CSV files used to draw manuscript figures,optional_recommended,Useful for reproducible figures if no confidentiality issue exists.

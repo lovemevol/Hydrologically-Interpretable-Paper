@@ -1,0 +1,20 @@
+stage,stage_name,config_id,description,evidence_role,planned_seed_rule,max_episodes,collector_env_num,data_export_count,learning_rate,critic_learning_rate,clip_ratio,entropy_weight,discount_factor,gae_lambda
+B,Stage B repeated sensitivity analysis,default,Default reference,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0005,0.2,0.016,0.995,0.95
+B,Stage B repeated sensitivity analysis,robust_lhs014,Stage A robust screening candidate lhs014,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.008,0.995,0.9
+B,Stage B repeated sensitivity analysis,return_lhs012,Stage A highest-return candidate lhs012,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0001,0.1,0.004,0.99,0.9
+B,Stage B repeated sensitivity analysis,return_lhs008,Stage A high-return robust candidate lhs008,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0003,0.0003,0.1,0.008,0.99,0.95
+B,Stage B repeated sensitivity analysis,fast_actor_lhs019,Stage A high actor-learning-rate candidate lhs019,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.001,0.0003,0.1,0.008,0.99,0.9
+B,Stage B repeated sensitivity analysis,screen_lhs007,Stage A top screening-score candidate lhs007,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0003,0.0001,0.2,0.004,0.995,0.9
+B,Stage B repeated sensitivity analysis,conservative_lhs001,Stage A conservative low-learning-rate candidate lhs001,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0001,0.0001,0.1,0.004,0.99,0.9
+B,Stage B repeated sensitivity analysis,clip01_gamma995,Clip-ratio main-effect candidate at gamma 0.995,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.1,0.008,0.995,0.9
+B,Stage B repeated sensitivity analysis,clip03_gamma995,High-clip main-effect contrast at gamma 0.995,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.3,0.008,0.995,0.9
+B,Stage B repeated sensitivity analysis,gamma099_clip02,Discount-factor main-effect candidate at clip 0.2,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.008,0.99,0.9
+B,Stage B repeated sensitivity analysis,gamma0999_clip02,Long-horizon risk contrast at clip 0.2,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.008,0.999,0.9
+B,Stage B repeated sensitivity analysis,gae095_robust,GAE main-effect candidate around the robust region,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.008,0.995,0.95
+B,Stage B repeated sensitivity analysis,gae098_robust,High-GAE contrast around the robust region,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.008,0.995,0.98
+B,Stage B repeated sensitivity analysis,entropy004_robust,Low-entropy exploration contrast around the robust region,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.004,0.995,0.9
+B,Stage B repeated sensitivity analysis,entropy032_robust,High-entropy exploration contrast around the robust region,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0005,0.0003,0.2,0.032,0.995,0.9
+B,Stage B repeated sensitivity analysis,risk_lhs009,Stage A weakest-return and non-flood spill stress case lhs009,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0003,0.0003,0.3,0.008,0.999,0.95
+B,Stage B repeated sensitivity analysis,risk_lhs005,Stage A low-return low-level-pressure stress case lhs005,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0001,0.0005,0.3,0.016,0.999,0.98
+B,Stage B repeated sensitivity analysis,risk_lhs023,Stage A aggressive unstable stress case lhs023,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.001,0.001,0.3,0.032,0.999,0.98
+B,Stage B repeated sensitivity analysis,risk_lhs003,Stage A weak middle-clip stress case lhs003,main repeated sensitivity evidence,seed = round * 100,50,10,10,0.0001,0.0003,0.2,0.008,0.995,0.95

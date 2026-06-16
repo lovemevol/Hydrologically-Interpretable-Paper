@@ -1,0 +1,7 @@
+parameter,default_value,candidate_values,varied_in_paper,interpretation
+learning_rate,0.0005,0.0001;0.0003;0.0005;0.001,yes,actor update step size
+critic_learning_rate,0.0005,0.0001;0.0003;0.0005;0.001,yes,critic update step size
+clip_ratio,0.2,0.1;0.2;0.3,yes,PPO policy-update constraint
+entropy_weight,0.016,0.004;0.008;0.016;0.032,yes,exploration regularization weight
+discount_factor,0.995,0.99;0.995;0.999,yes,temporal credit assignment horizon
+gae_lambda,0.95,0.9;0.95;0.98,yes,advantage smoothing parameter

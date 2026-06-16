@@ -1,0 +1,32 @@
+{
+  "stage_0": {
+    "name": "Stage 0 smoke test",
+    "rounds": 1,
+    "seed_rule": "seed = round * 100",
+    "evidence_role": "workflow verification only"
+  },
+  "stage_a": {
+    "name": "Stage A screening",
+    "rounds": 1,
+    "seed_rule": "seed = round * 100",
+    "evidence_role": "screening only"
+  },
+  "stage_b": {
+    "name": "Stage B repeated sensitivity analysis",
+    "rounds": 3,
+    "seed_rule": "seed = round * 100",
+    "seeds": [
+      100,
+      200,
+      300
+    ],
+    "evidence_role": "main repeated sensitivity evidence"
+  },
+  "stage_c": {
+    "name": "Stage C mixed-sequence checkpoint validation",
+    "retraining": "none",
+    "checkpoint_selection": "seed closest to configuration-level median evaluator return unless otherwise stated",
+    "eval_seed": 0,
+    "evidence_role": "selected checkpoint validation under one mixed five-year sequence"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "package_name": "PaperFour minimal public reproducibility package",
+  "created_for": "Journal of Water Resources Planning and Management submission preparation",
+  "created_on": "2026-06-15",
+  "scope": "configuration-level materials, schema-level materials, and minimum public code bundle",
+  "included_directories": [
+    "configs",
+    "schema",
+    "statements",
+    "manifests",
+    "code"
+  ],
+  "excluded_by_default": [
+    "raw reservoir and inflow workbooks",
+    "trained checkpoints",
+    "raw evaluator workbooks",
+    "large run logs"
+  ],
+  "manuscript_boundary": "fixed five-reservoir HAPPO setting; sampled learning-dynamics sensitivity; one mixed-sequence checkpoint validation"
+}

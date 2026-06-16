@@ -1,0 +1,9 @@
+repository_path,role,public_release
+agent/reservoir_multi_agents/config/paperfour_param_utils.py,defines fixed settings and Stage 0/A/B parameter matrices,recommended
+agent/reservoir_multi_agents/config/PaperFour_run_experiments.py,generates run configs and launches Stage 0/A/B training,recommended
+agent/reservoir_multi_agents/config/PaperFour_run_experiments_eval.py,evaluates selected Stage B checkpoints for Stage C,recommended
+public_reproducibility_package/code/config/reservoir_happo_public_template.py,redacted fixed-setting template for public review,included
+agent/reservoir_multi_agents/config/paperfour_stage_c_scenarios.json,defines Stage C mixed-sequence validation scenario,recommended with restricted input note
+agent/reservoir_multi_agents/analysis/experiment_analysis_paperFour/build_response_dataset.py,builds Stage B response dataset and representative checkpoint table,recommended
+agent/reservoir_multi_agents/analysis/experiment_analysis_paperFour/build_stage_c_scorecard.py,builds Stage C validation scorecard,recommended
+agent/reservoir_multi_agents/markdown/<manuscript_folder>/PaperFour/figures/scripts,prepares figure data and renders manuscript figures,recommended
