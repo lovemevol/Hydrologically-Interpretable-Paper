@@ -1,0 +1,54 @@
+{
+  "scope": "sampled Stage B learning-dynamics matrix under the fixed five-reservoir HAPPO setting",
+  "baseline_config_id": "default",
+  "rule_name": "sampled multi-output operational acceptability rule",
+  "thresholds": {
+    "tau_J": {
+      "value": 0.05,
+      "unit": "fraction of Baseline mean evaluator return",
+      "direction": "candidate mean evaluator return must be no more than 5% below Baseline",
+      "basis": "default value used by the public response-dataset builder and reported as a tolerance gate, not as a universal management threshold"
+    },
+    "tau_CV": {
+      "value": 0.10,
+      "unit": "coefficient of variation of evaluator return",
+      "direction": "candidate return CV must not exceed 0.10",
+      "basis": "default return-variability tolerance used to screen unstable configurations within the sampled matrix"
+    },
+    "tau_R": {
+      "value": 0.10,
+      "unit": "fractional degradation versus Baseline for directional risk diagnostics",
+      "direction": "directional risk diagnostics must not exceed Baseline by more than 10%",
+      "basis": "default operational-risk tolerance used by the public response-dataset builder for sampled acceptability screening"
+    }
+  },
+  "benefit_metrics": [
+    "evaluator_return",
+    "generation"
+  ],
+  "evaluator_return_definition": "cumulative reward obtained by a trained policy under the common evaluation protocol, separated from learner-side losses and update diagnostics",
+  "fixed_reward_components": [
+    "generation reward",
+    "coordination terms",
+    "service-violation penalties",
+    "action-correction pressure"
+  ],
+  "directional_risk_diagnostics": [
+    "non_flood_season_spillage",
+    "storage_spillage_conflict",
+    "boundary_pressure_spillage",
+    "lower_bound_water_level_pressure",
+    "action_correction",
+    "violation_rates"
+  ],
+  "neutral_spillage_diagnostics": [
+    "total_spillage",
+    "flood_season_spillage"
+  ],
+  "implementation_note": "Some analysis tables may retain legacy column names such as robust_flag or robust_reason for backward compatibility; in the manuscript they should be interpreted as sampled acceptability flags, not as basin-wide robustness claims.",
+  "interpretation_limits": [
+    "not a dense continuous response surface",
+    "not a transferable parameter recommendation",
+    "not a cross-basin robustness claim"
+  ]
+}

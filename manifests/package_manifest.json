@@ -1,0 +1,20 @@
+{
+  "package_name": "Public reproducibility package for HAPPO cascade reservoir hydrologic diagnostics",
+  "created_for": "Journal of Hydrologic Engineering submission",
+  "created_on": "2026-07-14",
+  "scope": "configuration-level materials, schema-level materials, and minimum public code bundle",
+  "included_directories": [
+    "configs",
+    "schema",
+    "statements",
+    "manifests",
+    "code"
+  ],
+  "excluded_by_default": [
+    "raw reservoir and inflow workbooks",
+    "trained checkpoints",
+    "raw evaluator workbooks",
+    "large run logs"
+  ],
+  "manuscript_boundary": "fixed five-reservoir HAPPO setting; sampled training-parameter sensitivity; one mixed-sequence checkpoint validation"
+}

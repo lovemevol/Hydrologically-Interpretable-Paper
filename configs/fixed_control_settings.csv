@@ -1,0 +1,9 @@
+item,value,public_description,public_release_status
+reservoir_system_file,ResStr5.xlsx,Fixed five-reservoir cascade system workbook,restricted_input_file_not_included
+algorithm,HAPPO,Fixed heterogeneous-agent PPO control setting,configuration_public
+observation_setting,fixed observation setting,Each reservoir agent receives normalized local reservoir variables and shared cascade-level context; the manuscript treats this only as a fixed observation setting,configuration_public
+reward_formulation,default reward formulation,Reward weights are fixed; local reward weighting mode is none,configuration_public
+action_representation,discrete-100,Fixed discrete action representation,configuration_public
+max_daily_steps,1825,Five-year daily sequence length used by the fixed control problem,configuration_public
+local_reward_ratio,0.5,Fixed local-to-system reward ratio used by the implementation,configuration_public
+data_export_mode,excel,Evaluator and schedule exports are generated as workbook-derived tabular outputs,configuration_public

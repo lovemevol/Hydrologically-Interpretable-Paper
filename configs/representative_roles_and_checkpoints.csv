@@ -1,0 +1,10 @@
+manuscript_role,config_id,internal_source_label,used_in_stage_c,role_definition
+Baseline,default,default_reference,yes,default learning-dynamics parameters
+Operationally acceptable candidate,gamma099_clip02,acceptable_top_return,yes,acceptable return-risk response with strongest Stage B return among acceptable candidates
+High-return candidate,return_lhs012,stage_a_return_leader_check,yes,high return with acceptable operational diagnostics
+High-return candidate,return_lhs008,high_return_low_clip_candidate,yes,high-return low-clipping candidate used as a representative contrast
+Conservative candidate,conservative_lhs001,conservative_lhs001,no,low learning-rate comparison case retained for Stage B interpretation
+High-clipping risk,clip03_gamma995,high_clip_risk_contrast,yes,elevated clipping ratio with degraded or risky hydrologic response
+Long-horizon risk,gamma0999_clip02,long_horizon_risk_contrast,yes,high discount factor with degraded or risky hydrologic response
+Instability case,risk_lhs009,failure_counterexample,yes,"high variability, low return, and high lower-bound water-level pressure counterexample"
+Entropy contrast,entropy004_robust,high_screening_but_high_cv_uncertainty,yes,low-entropy uncertainty contrast retained for Stage C inventory completeness

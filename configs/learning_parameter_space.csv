@@ -1,0 +1,7 @@
+parameter,default_value,candidate_values,varied_in_paper,interpretation
+policy_update_step_size,0.0005,0.0001;0.0003;0.0005;0.001,yes,policy update step size (ℓ_π)
+value_estimation_step_size,0.0005,0.0001;0.0003;0.0005;0.001,yes,value estimation step size (ℓ_V)
+policy_update_constraint,0.2,0.1;0.2;0.3,yes,policy update constraint strength (ε_clip)
+action_exploration_pressure,0.016,0.004;0.008;0.016;0.032,yes,action exploration pressure (β_ent)
+temporal_credit_horizon,0.995,0.99;0.995;0.999,yes,temporal credit allocation horizon (γ)
+advantage_propagation_span,0.95,0.9;0.95;0.98,yes,advantage propagation span (λ_GAE)
