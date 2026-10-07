@@ -1,8 +1,8 @@
 # Public Reproducibility Package
 
 This folder contains the minimum public materials accompanying the manuscript
-*"Hydrologic diagnostics of multi-agent reinforcement learning policies for
-cascade reservoir operation: A case study of the upper Yangtze River"*.
+*"Operational and Hydrologic Diagnostics of Multi-Agent Reinforcement Learning
+Policies for Cascade Reservoir Operation: A Case Study of the Upper Yangtze River"*.
 
 The package supports configuration-level review and auditability of the
 training-parameter sensitivity analysis reported in the manuscript.
@@ -26,6 +26,14 @@ be released separately only if data-license, repository-size, and
 confidentiality constraints allow.
 
 ## Folder Contents
+
+`supplementary/`
+
+- `Supplementary_Table_S1.csv`: all 19 Stage B configurations and three-seed diagnostic summaries.
+- `Supplementary_Table_S2.csv`: all 24 Stage A screening configurations and scores.
+- `Supplementary_Table_S3.csv`: the eight Stage C policies, selected seeds and scores.
+- `stage_c_sequence_provenance.csv`: Stage C source hydrologic years, sequence order and annual inflow exceedance frequencies.
+- `README.md`: file descriptions, field definitions and units.
 
 `configs/`
 

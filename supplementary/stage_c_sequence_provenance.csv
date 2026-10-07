@@ -1,0 +1,6 @@
+segment_order,annual_inflow_exceedance_frequency_pct,hydrologic_class,source_hydrologic_year
+1,5,very wet,2021
+2,25,wet,2000
+3,50,normal,1969
+4,75,dry,1976
+5,95,very dry,2006

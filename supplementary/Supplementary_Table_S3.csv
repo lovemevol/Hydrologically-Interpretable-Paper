@@ -1,0 +1,9 @@
+﻿config_id,policy_role,source_seed,source_return,eval_return_mean
+clip03_gamma995,High-clipping risk,100,3434.81787109375,3573.43115234375
+default,Baseline,200,4062.7802734375,4106.45263671875
+entropy004_robust,Entropy contrast,100,4028.5537109375,4084.759033203125
+gamma0999_clip02,Long-horizon risk,300,2323.716552734375,2429.4619140625
+gamma099_clip02,Operationally acceptable,300,4211.82763671875,4296.30615234375
+return_lhs008,High-return candidate 2,300,4189.95654296875,4189.95654296875
+return_lhs012,High-return candidate 1,300,4207.7919921875,4210.8525390625
+risk_lhs009,Instability case,100,1237.3226318359375,1521.479248046875

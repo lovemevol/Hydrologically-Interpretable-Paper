@@ -5,8 +5,22 @@
       "scenario_type": "mixed_five_year_percentile_sequence",
       "eval_inflow_public_status": "restricted_input_file_not_included",
       "eval_inflow_repository_path_if_available": "agent/reservoir_multi_agents/input/ResInflowEva.xlsx",
-      "source_years": "5%, 25%, 50%, 75%, and 95% annual inflow percentiles",
-      "description": "Stage C held-out mixed five-year sequence used for checkpoint validation only; no retraining is performed."
+      "source_years": [
+        2021,
+        2000,
+        1969,
+        1976,
+        2006
+      ],
+      "description": "Stage C separate mixed five-year sequence, concatenated in very-wet to very-dry order, used to evaluate existing trained policies without retraining.",
+      "annual_inflow_exceedance_frequency_pct": [
+        5,
+        25,
+        50,
+        75,
+        95
+      ],
+      "sequence_provenance_file": "supplementary/stage_c_sequence_provenance.csv"
     }
   ]
 }
